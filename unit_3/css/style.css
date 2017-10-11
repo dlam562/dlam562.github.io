@@ -1,23 +1,30 @@
 body {
 	text-align: center;
-	font-family: 'Circular Black', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-
+	font-family: 'Josefin Slab', serif;
 	margin: 0;
 	color: #767676;
 }
 
 h1{
-	font-weight:400px;
+	font-family: 'Archivo Narrow', sans-serif;
 	color: #00A699;
-	font-size: 60px;
+	font-size: 72px;
+	margin: .05em;
+	letter-spacing: 2px;
 }
 
 p{
 	text-align: center;
 	color: #767676;
+	margin: 0;
+}
+
+p#list_title {
+	font-size: 36px
 }
 
 ul#list {
+	font-size: 30px;
 	width: 100px;
 	margin:0 auto;
 	color: #767676;
