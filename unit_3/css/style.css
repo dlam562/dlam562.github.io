@@ -5,6 +5,48 @@ body {
 	color: #767676;
 }
 
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#one {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.description {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 h1{
 	font-family: 'Archivo Narrow', sans-serif;
 	color: #00A699;
@@ -32,5 +74,5 @@ ul#list {
 }
 
 .image {
-	width: 100%;
+	width: 75%;
 }
