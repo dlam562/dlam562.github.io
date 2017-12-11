@@ -7,7 +7,7 @@ body {
 header {
 	background-color: #ffffff;
 	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif; 
-	padding: 20px;
+	padding: 5%;
 }
 
 nav {
@@ -20,48 +20,42 @@ nav {
 #aside {
 	background-color: #FFC675;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 20%;
 }
 
-#article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 10px;
+	background-color: #767676;
+	padding: 1%;
 }
 
 .description {
 	background-color: #E89C6C;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 20%;
 }
 
 h1{
 	font-family: 'Archivo Narrow', sans-serif;
 	color: #00A699;
-	font-size: 72px;
-	margin: .05em;
-	letter-spacing: 2px;
+	font-size: 10em;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 p{
 	text-align: center;
-	color: #767676;
+	color: #000000;
 	margin: 0;
 }
 
 p#list_title {
-	font-size: 36px
+	font-size: 12em;
 }
 
 ul.list {
-	font-size: 16px;
-	width: 50%;
+	font-size: 5em;
 	float: right;
 	color: #767676;
 	list-style: none;
@@ -70,9 +64,7 @@ ul.list {
 }
 
 #two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
+    background-color: #ffffff;
 }
 
 .clearfix:after {
@@ -85,29 +77,18 @@ ul.list {
 }
 
 #left {
-    background-color: violet;
-    border: 1px black solid;
+    background-color: ffffff;
     padding: 10px;
-    float: left;
-    width: 30%;
     display: inline-block;
     list-style: none;
 }
 
-#right {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
-    display: inline-block;
-}
-
 .logo {
-	width: 10%;
+	width: 7%;
 	float: left;
+	padding: 1%;
 }
 
 .hero {
-	width: 100%;
+	width: 75%;
 }
